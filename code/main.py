@@ -7,7 +7,7 @@ from level import Level
 pygame.init()
 screen = pygame.display.set_mode((screen_width, screen_height))
 clock = pygame.time.Clock()
-test_tile = pygame.sprite.Group(Tile((100,100),200))
+test_tile = pygame.sprite.Group(Tile((100, 100), 200))
 level = Level(level_map, screen)
 
 while True:
