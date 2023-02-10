@@ -110,6 +110,8 @@ class Level:
             player.on_ceiling = False
 
     def run(self):
+        # run the entire game/level
+
         # dust particles
         self.dust_sprite.update(self.world_shift)
         self.dust_sprite.draw(self.display_surface)
